@@ -8,3 +8,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  box-shadow: 0px 5px 5px 0px #ffaa58;
+  margin: 0 0 5px;
+  background-color: rgb(255, 170, 88, 0.8);
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+}
