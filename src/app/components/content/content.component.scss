@@ -1,9 +1,19 @@
 .content-container {
   border: 2px solid black;
-  margin: 10px 0 10px;
+  margin: auto;
+  width: 80%;
   box-shadow: 0px -5px 5px 0px #508fa0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80%;
+}
+
+.biz-info-container {
+  display: flex;
+  border: 2px solid black;
+  width: auto;
+  justify-content: space-around;
+  column-count: 3;
 }

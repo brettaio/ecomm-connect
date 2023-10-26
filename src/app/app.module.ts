@@ -8,6 +8,7 @@ import { ContentComponent } from './components/content/content.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { HeroButtonsComponent } from './components/hero/hero-buttons/hero-buttons.component';
 import { CallNowButtonComponent } from './components/header/call-now-button/call-now-button.component';
+import { BusinessInformationComponent } from './components/business-information/business-information.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CallNowButtonComponent } from './components/header/call-now-button/call
     HeroComponent,
     HeroButtonsComponent,
     CallNowButtonComponent,
+    BusinessInformationComponent,
   ],
   imports: [BrowserModule],
   providers: [],

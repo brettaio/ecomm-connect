@@ -1,4 +1,12 @@
 .footer-container {
+  display: flex;
   border: 2px solid black;
-  margin: 0 0 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
 }
